@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+header {
+    z-index: 1000 !important; 
+    background: #ffffff !important;
+}
+.btn-primary {
+    @apply bg-brandPrimary text-white px-7 py-2 rounded hover:bg-neutralDGrey transition-all duration-300 hover:-translate-y-4;
+}

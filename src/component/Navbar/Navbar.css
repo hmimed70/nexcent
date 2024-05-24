@@ -1,0 +1,38 @@
+header {
+    @apply w-full bg-white md:bg-transparent fixed top-0 left-0 right-0;
+}
+header .sitckyNav {
+    @apply sticky top-0 left-0 right-0 border-b bg-white duration-300;
+}
+header nav {
+   @apply py-4 lg:px-14 px-4;
+}
+header nav .nav-large  {
+    @apply flex justify-between items-center text-base gap-8;
+}
+header nav .brand {
+    @apply text-2xl font-bold flex space-x-3 items-center;
+}
+
+header nav .brand img {
+    @apply w-10 inline-block items-center;
+}
+header nav ul {
+    @apply md:flex space-x-12 hidden;
+}
+header nav ul .my-item {
+    @apply  block text-base text-neutralDGrey hover:text-brandPrimary first:font-medium;
+}
+header nav .mobileItem {
+    @apply space-y-4 px-4 mt-16 py-7 bg-brandPrimary md:hidden ;
+}
+header nav .MenuOpen {
+    @apply block fixed top-0 right-0 left-0;
+}
+
+header nav .my-item-mobile {
+    @apply block text-base text-white hover:text-brandPrimary first:font-medium;
+}
+header nav .toggleMenu {
+    @apply  text-neutralDGrey focus:outline-none focus:text-gray-500;
+}
