@@ -66,7 +66,7 @@ const Navbar = () => {
           {
                    navItems.map(({link, path}) =>
                     <Link to={path} key={path} spy={true} smooth={true} 
-                      offset={-100} className='my-item-mobile '>{link}
+                      offset={-100} className='my-item-mobile  '>{link}
                    </Link>)
                  }
           </div>

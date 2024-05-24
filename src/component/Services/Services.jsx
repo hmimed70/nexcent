@@ -42,7 +42,7 @@ const Services = () => {
                <div className='bg-[#e8f5e9] h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl flex items-center justify-center '>
                 <img src={service.image} className='-ml-5' alt='logo 1'/>
                </div> 
-               <h1 className='w-3/4 text-center text-2xl font-semibold text-neutralDGrey mb-2 px-2'>{service.title}</h1>
+               <h1 className='text-center text-2xl font-semibold text-neutralDGrey mb-2 px-2'>{service.title}</h1>
                <p className='text-sm  text-neutralGrey'>{service.description}</p>
              </div>
            ))}

@@ -31,7 +31,7 @@ header nav .MenuOpen {
 }
 
 header nav .my-item-mobile {
-    @apply block text-base text-white hover:text-brandPrimary first:font-medium;
+    @apply block text-base font-semibold text-white hover:text-indigo-700 first:font-medium cursor-pointer;
 }
 header nav .toggleMenu {
     @apply  text-neutralDGrey focus:outline-none focus:text-gray-500;
